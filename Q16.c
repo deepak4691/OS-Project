@@ -1,7 +1,6 @@
 #include<stdio.h>
 void roundRobin(int p[], int a[],int b[], int n,int l) 
-	{ 
-		// result of average times 
+	{  
 		int res = 0; 
 		int resc = 0; 
 
@@ -56,7 +55,7 @@ void roundRobin(int p[], int a[],int b[], int n,int l)
 								w[i] = t - b[i] - a[i]; 
 								res_b[i] = 0; 
 
-								// add sequence 
+				
 							} 
 						} 
 					} 
@@ -136,7 +135,6 @@ void roundRobin(int p[], int a[],int b[], int n,int l)
 		}
 	int main()
 	{ 
-	
 		int pn[20],arrivaltime[20],bursttime[20];
 		int q,l;
 		 printf("Enter Total Process:\t "); 
