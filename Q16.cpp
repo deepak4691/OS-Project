@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 void roundRobin(int p[], int a[],int b[], int n,int l) 
 	{  
 		int res = 0; 
@@ -123,7 +124,7 @@ void roundRobin(int p[], int a[],int b[], int n,int l)
             printf("   %d  ",a[i]);
 			printf("   %d ",comp[i]);
 			printf("    %d ",w[i]);                
-             printf("    %d\n",comp[i]-a[i]);                
+             printf("    %d\n",abs(comp[i]-a[i]));                
             
 
 			res = res + w[i]; 
